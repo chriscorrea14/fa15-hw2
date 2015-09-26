@@ -6,7 +6,7 @@ class PagesController < ApplicationController
 
   def stringify
     @text = "You are nothing!"
-    @page = Page.new(params[:name])
+    # @page = Page.new(params[:name])
     # @text = :name + " is so " + :adjective
   end
 
