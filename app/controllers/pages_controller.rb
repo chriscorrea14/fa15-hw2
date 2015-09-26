@@ -6,7 +6,7 @@ class PagesController < ApplicationController
 
   def stringify
     @text = "You are nothing!"
-    @text = :name + " is so " + :adjective
+    # @text = :name + " is so " + :adjective
   end
 
   def age
