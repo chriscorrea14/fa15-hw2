@@ -10,7 +10,7 @@ class PagesController < ApplicationController
     if params[:name] == nil || params[:name] == ""
       @text = "You are nothing!"
     else
-      @text = params[:name] #+ " is so " + :adjective
+      @text = params[:name] + ' is so ' + params[:adjective]
     end
   end
 
