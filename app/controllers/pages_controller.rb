@@ -7,8 +7,11 @@ class PagesController < ApplicationController
   def stringify
     # @text = "You are nothing!"
     # @page = Page.new(params[:name])
-    puts params[:name]
-    @text = params[:name] #+ " is so " + :adjective
+    if params[:name] == nil
+      @text = "You are nothing!"
+    else
+      @text = params[:name] #+ " is so " + :adjective
+    end
   end
 
   def age
