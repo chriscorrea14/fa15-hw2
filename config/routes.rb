@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root 'pages#stringify'
   root 'pages#home'
   get 'age', to: 'pages#age'
+  get 'stringify', to: 'pages#stringify'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
